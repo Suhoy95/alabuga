@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .python {
+            background-color: yellow;
+        }
+        .javascript {
+            background-color: orange;
+        }
+        .clang {
+            background-color: blue;
+        }
+
+        .rust {
+            background-color: black;
+            color: white;
+        }
+        .java {
+            background-color: red;
+        }
+        .pascal {
+            background-color: royalblue;
+            color: red;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-rows: repeat(3, 50px);
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 2px;
+            text-align: center;
+        }
+    </style>
+    <div class="grid-container">
+        <div class="python">python</div>
+        <div class="javascript">javascript</div>
+        <div class="clang">clang</div>
+
+        <div class="rust">rust</div>
+        <div class="java">java</div>
+        <div class="pascal">pascal</div>
+    </div>
+</body>
+</html>
