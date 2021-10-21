@@ -1,0 +1,22 @@
+{
+  "name": "alabuga",
+  "version": "1.0.0",
+  "description": "учебный проект",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suhoy95/alabuga.git"
+  },
+  "author": "Илья Сухоплюев",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suhoy95/alabuga/issues"
+  },
+  "homepage": "https://github.com/Suhoy95/alabuga#readme",
+  "devDependencies": {
+    "react": "^17.0.2"
+  }
+}
